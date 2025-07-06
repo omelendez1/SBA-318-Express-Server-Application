@@ -38,7 +38,12 @@ GET	/movies/:id	View one movie by ID
 PATCH	/movies/:id	Edit movie details
 DELETE	/movies/:id	Delete a movie
 GET	/movies?genre=	Filter movies by genre (query)
+GET /users             → View all registered users
 
+🧪 Future Improvements
+A user form was not added due to limited time.
+Currently, users are displayed but not created through the app.
+In the future, I plan to add a form to let users register from the front end.
 # SBA-318-Express-Server-Application
 
 
